@@ -21,8 +21,8 @@ $(window).on("load", function () {
         var enteredText = $(this).val();
         var append = `<div class="row">
                        
-                        <div class="col-10 noPadding input-group-sm"  style="margin-left: 20px !important">
-                            <input value="${enteredText}" type="text" class="form-control inputNoBoarder noPadding">
+                        <div class="col-10 noPadding input-group-sm imal"  style="margin-left: 20px !important">
+                            <input value="${enteredText}" type="text" class="form-control inputNoBoarder noPadding imal">
                         </div>
                        
                     </div>`;
@@ -55,9 +55,9 @@ $("#closeBtn").click(function () {
 
   var title = $("#title").val();
 
-  var titleHtml = `<div id="imal" class="item card shadow p-3 mb-5 bg-white rounded" style="border-radius: 8px !important">
-                          <div class="input-group mb-3 inputNoBoarder">
-                              <input type="text" class="form-control inputNoBoarder"value="${title}">
+  var titleHtml = `<div class="imal item card shadow p-3 mb-5 rounded" style="border-radius: 8px !important;background-color:white">
+                          <div class="input-group mb-3 inputNoBoarder imal">
+                              <input type="text" class="form-control inputNoBoarder imal"value="${title}">
                           </div>
                       `;
 
@@ -67,8 +67,8 @@ $("#closeBtn").click(function () {
 
       titleHtml = titleHtml + `  <div class="row">
          
-          <div class="col-10 noPadding input-group-sm">
-              <input value="${todoItem}" type="text" class="form-control inputNoBoarder noPadding">
+          <div class="col-10 noPadding input-group-sm imal">
+              <input value="${todoItem}" type="text" class="form-control inputNoBoarder noPadding imal">
           </div>
       </div>`;
 
@@ -87,61 +87,62 @@ $("#closeBtn").click(function () {
 });
 
 $("#dr1c1").click(function(){
-  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1").css("background-color", 'white');
+  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1,#cardmain3,.imal").css("background-color", 'white');
  
 });
 
 $("#dr1c2").click(function(){
-  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1,#imal").css("background-color", 'rgb(242, 139, 130)');
+  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1,#cardmain3,.imal").css("background-color", 'rgb(242, 139, 130)');
  
 });
 
 $("#dr1c3").click(function(){
-  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1").css("background-color", 'rgb(251, 188, 4)');
+  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1,#cardmain3,.imal").css("background-color", 'rgb(251, 188, 4)');
  
 });
 
 $("#dr1c4").click(function(){
-  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1 ").css("background-color", 'rgb(255, 244, 117)');
+  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1,#cardmain3,.imal ").css("background-color", 'rgb(255, 244, 117)');
  
 });
 
 $("#dr2c1").click(function(){
-  $(".card-body ,  #a, #b, #title, #items,#cardmain,#closeBtn,#items1").css("background-color", 'rgb(204, 255, 144)');
+  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1,#cardmain3,.imal").css("background-color", 'rgb(204, 255, 144)');
  
 });
 
 $("#dr2c2").click(function(){
-  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1 ").css("background-color", 'rgb(167, 255, 235)');
+  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1,#cardmain3,.imal ").css("background-color", 'rgb(167, 255, 235)');
  
 });
 
 $("#dr2c3").click(function(){
-  $(".card-body ,  #a, #b, #title, #items,#closeBtn ,#items1").css("background-color", 'rgb(203, 240, 248))');
+  $(".card-body ,  #a, #b, #title, #items,#closeBtn ,#items1,#cardmain3,.imal").css("background-color", 'rgb(203, 240, 248))');
  
 });
 
 $("#dr2c4").click(function(){
-  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1 ").css("background-color", 'rgb(174, 203, 250)');
+  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1,#cardmain3,.imal ").css("background-color", 'rgb(174, 203, 250)');
  
 });
 
 $("#dr3c1").click(function(){
-  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1 ").css("background-color", 'rgb(215, 174, 251)');
+  $(".card-body ,  #a, #b, #title, #items,#closeBtn,#items1,#cardmain3,.imal ").css("background-color", 'rgb(215, 174, 251)');
  
 });
 
 $("#dr3c2").click(function(){
-  $(".card-body ,  #a, #b , #title, #items ,#closeBtn,#items1").css("background-color", 'rgb(253, 207, 232)');
+  $(".card-body ,  #a, #b , #title, #items ,#closeBtn,#items1,#cardmain3,.imal").css("background-color", 'rgb(253, 207, 232)');
  
 });
 
 $("#dr3c3").click(function(){
-  $(".card-body ,  #a, #b, #title, #items,#closeBtn ,#items1").css("background-color", 'rgb(230, 201, 168)');
+  $(".card-body ,  #a, #b, #title, #items,#closeBtn ,#items1,#cardmain3,.imal").css("background-color", 'rgb(230, 201, 168)');
  
 });
 $("#dr3c4").click(function(){
-  $(".card-body ,  #a, #title, #items , #b,,#closeBtn,#items1").css("background-color", 'rgb(232, 234, 237)');
+  console.log("imal");
+  $(".card-body ,  #a, #title, #items , #b,#closeBtn,.imal,#items1,#cardmain3").css("background-color", "rgb(232, 234, 237)","important");
  
 });
 
