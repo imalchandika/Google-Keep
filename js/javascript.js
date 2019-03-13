@@ -40,7 +40,6 @@ var $container = $('.packery');
 
 $container.packery({
     columnWidth: 10,
-    //rowHeight: 80
 });
 $container.find('.item').each(makeEachDraggable);
 
