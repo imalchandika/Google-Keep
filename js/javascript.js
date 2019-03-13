@@ -12,6 +12,7 @@ $(window).on("load", function () {
     $("#items").hide();
     $("#items1").focus();
     $("#items3 #colorpickers").hide();
+    // $("#cardmain3").css("margin-bottom","0px","important");
   });
 
 
@@ -83,6 +84,11 @@ $("#closeBtn").click(function () {
 
   $("#title").val("");
   $("#lineitemlist").children().remove();
+
+////////////////////////////////////////////////
+  $("#items").show();
+  $("#cardbody").hide();
+  $("#items").focus();
 
 });
 
@@ -214,4 +220,11 @@ $("#items3 #dr2c3").mouseover(function(){
 $("#items3 #dr2c3").mouseout(function(){
   $(this).css("border","0px solid silver" )
 });
+
+$("#newdiv").click(function(){
+  console.log("IMAL");
+  $("#items").show();
+  $("#cardbody").hide();
+  $("#items").focus();
+})
 
